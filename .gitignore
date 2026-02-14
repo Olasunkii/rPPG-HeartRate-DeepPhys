@@ -19,3 +19,32 @@ neural_methods/trainer/PhysnetTrainer_backup.py
 debug_utils_physnet.py
 test.yaml
 *.out
+
+# Ignore datasets
+dataset/
+datasets/
+*.zip
+*.tar
+*.mp4
+*.avi
+
+# Ignore experiment outputs
+runs/
+*.pickle
+*.pth
+*.pt
+*.ckpt
+
+# Ignore environment files
+env/
+venv/
+*.conda
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+README1.md
